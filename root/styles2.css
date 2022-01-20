@@ -116,3 +116,7 @@ header {
     margin: 0;
     font-family: var(--fuente2);
 }
+
+@media screen and (max-width:760px ){
+    
+}

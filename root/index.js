@@ -132,6 +132,7 @@ let jupiter = () => {
     traslacion.innerText = planetas[4].traslacion
     radio.innerText = planetas[4].radio,
     luna.innerText = planetas[4].lunas
+    img.src = '../resources/img/jupiter.png'
 }
 let saturno = () => {
     name.innerText = planetas[5].nombre,
