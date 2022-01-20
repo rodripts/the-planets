@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>THE PLANETS</h1>
+        <div class="menu">
+            <ul>
+                <li>
+                    <p onclick="mercurio()">Mercurio</p>
+                </li>
+                <li>
+                    <p onclick="venus()">Venus</p>
+                </li>
+                <li>
+                    <p onclick="tierra()">Tierra</p>
+                </li>
+                <li>
+                    <p onclick="marte()">Marte</p>
+                </li>
+                <li>
+                    <p onclick="jupiter()">Jupiter</p>
+                </li>
+                <li>
+                    <p onclick="saturno()">Saturno</p>
+                </li>
+                <li>
+                    <p onclick="urano()">Urano</p>
+                </li>
+                <li>
+                    <p onclick="neptuno()">Neptuno</p>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="../resources/img/tierra.png" alt="" id="img">
+        <div class="info">
+            <div class="info__text">
+                <h1 id="name">Tierra</h1>
+                <p id="info">Si bien la Tierra es solo el quinto planeta más grande del sistema solar, es el único mundo en nuestro sistema solar con agua líquida en la superficie. Un poco más grande que el cercano Venus, la Tierra es el más grande de los cuatro planetas más cercanos al Sol, todos los cuales están hechos de roca y metal. El nombre Tierra tiene al menos 1.000 años. Todos los planetas, excepto la Tierra, recibieron nombres de dioses y diosas griegos y romanos. Sin embargo, el nombre Tierra es una palabra germánica, que simplemente significa “el suelo”</p>
+            </div>
+            <div class="buttons">
+                <button>Informacion general</button>
+                <!-- <button id="estructuraButton" onclick="hola()">Estructura</button> -->
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div>
+            <h2>Tiempo de rotacion</h2>
+            <p id="rotacion">24 hrs</p>
+        </div>
+        <div>
+            <h2>Tiempo de traslacion</h2>
+            <p id="traslacion">365 dias</p>
+        </div>
+        <div>
+            <h2>Radio</h2>
+            <p id="radio">6,371 km</p>
+        </div>
+        <div>
+            <h2>Lunas</h2>
+            <p id="luna">1</p>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
